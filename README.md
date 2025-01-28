@@ -5,7 +5,7 @@ git clone https://github.com/fidhera/cekRamalan.git
 ```
 -->
 
-# Cek Ramalan - Coba Jelajahi Ramalan Masa Depan Kamu!  
+# Cek Ramalan - Apa yang Sudah Dirancang Untukmu?
 
 Selamat datang di web **Cek Ramalan**, portal interaktif yang membawa kamu menembus dimensi waktu! 🌌 Apakah kamu penasaran tentang apa yang menanti kamu di masa depan? Pekerjaan, Cinta, Hobi, atau keberuntungan? Di sini, kamu akan menemukan jawaban dan inspirasi untuk setiap pertanyaan besar dalam hidup kamu.
 
