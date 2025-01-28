@@ -35,7 +35,7 @@ Selamat datang di web **Cek Ramalan**, portal interaktif yang membawa kamu menem
 
 ✨ **Personalisasi Unik**: Setiap ramalan disesuaikan dengan data kamu untuk hasil yang lebih relevan.  
 🧙 **Algoritma Magis**: Dikombinasikan dengan ilmu astrologi modern dan teknologi dukun canggih.  
-📱 **Mudah Diakses**: Selalu ingat instagram @fidhera untuk mengakses website ini.  
+📱 **Mudah Diakses**: Selalu ingat instagram [@fidhera](https://instagram.com/fidhera)   untuk mengakses website ini.  
 🎭 **Interaktif**: Rasakan pengalaman meramal seperti nyata dengan antarmuka yang penuh aura magis.  
 
 ---
