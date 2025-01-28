@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ramalan Masa Depan</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes pulse {
+
+      0%,
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+
+      50% {
+        transform: scale(1.2);
+        opacity: 0.8;
+      }
+    }
+  </style>
+</head>
+
+<body class="bg-black min-h-screen flex flex-col items-center justify-center text-gray-300">
+  <div class="text-center">
+    <h1 class="text-5xl font-bold mb-6 text-red-500">🔮 Ramalan Masa Depan 🔮</h1>
+    <p class="text-lg mb-8">Masukkan nama untuk mengetahui apa yang para dukun ramalkan!</p>
+
+    <!-- form input -->
+    <div>
+      <input id="nameInput" type="text" placeholder="Masukkan nama Anda"
+        class="rounded-lg px-4 py-2 text-gray-800 focus:outline-none focus:ring focus:ring-red-500 mb-4 w-80">
+      <br>
+      <button onclick="generatePrediction()" class="bg-red-600 hover:bg-red-700 px-6 py-2 rounded-lg font-semibold">Cek
+        Ramalan</button>
+    </div>
+
+    <!-- loading popup -->
+    <div id="loading" class="fixed inset-0 bg-black bg-opacity-75 hidden flex items-center justify-center z-50">
+      <div class="bg-gray-900 rounded-lg p-6 text-center">
+        <p class="text-xl text-red-500 mb-4">Dukun sedang meramal...</p>
+        <div class="loader border-4 border-t-4 border-red-500 rounded-full w-16 h-16 animate-spin mx-auto"></div>
+        <p class="text-gray-300 mt-4 animate-pulse">Harap sabar, hasil segera keluar...</p>
+      </div>
+    </div>
+
+    <!-- hasil ramalan -->
+    <div id="result" class="mt-8 hidden">
+      <h2 class="text-3xl font-bold text-red-500">Halo, <span id="nameOutput"></span>!</h2>
+      <p class="mt-4">Berikut adalah ramalan masa depanmu yang disampaikan oleh dukun:</p>
+      <ul class="mt-4 space-y-2 text-lg">
+        <li><strong class="text-red-500">Pekerjaan:</strong> <span id="jobOutput"></span></li>
+        <li><strong class="text-red-500">Cinta:</strong> <span id="loveOutput"></span></li>
+        <li><strong class="text-red-500">Hobi:</strong> <span id="hobbyOutput"></span></li>
+      </ul>
+      <button onclick="resetPrediction()"
+        class="bg-red-600 hover:bg-red-700 mt-6 px-6 py-2 rounded-lg font-semibold">Ramalkan Lagi</button>
+    </div>
+  </div>
+
+  <!-- link js -->
+  <script src="resources/js/script.js"></script>
+</body>
+
+</html>
