@@ -233,7 +233,7 @@ const customPredictions = {
   }
 };
 
-// Store predictions locally
+// store predictions locally
 const storedPredictions = {};
 
 function generatePrediction() {
@@ -256,7 +256,7 @@ function generatePrediction() {
     document.getElementById("loading").classList.add("hidden");
     document.getElementById("result").classList.remove("hidden");
 
-    // Generate prediction
+    // generate prediksi
     let prediction;
     if (customPredictions[name]) {
       prediction = customPredictions[name];
@@ -272,7 +272,7 @@ function generatePrediction() {
     storedPredictions[name] = prediction;
 
     displayPrediction(name, prediction);
-  }, 2000); // Simulasi loading selama 2 detik
+  }, 2000); // simulasi loading selama 2 detik
 }
 
 function displayPrediction(name, prediction) {
