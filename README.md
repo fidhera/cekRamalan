@@ -82,7 +82,7 @@ Saya selalu terbuka untuk pengembangan dan ide baru! Kamu dapat:
 3. Kirim pull request ke branch utama kami.  
 
 ---
-<!-- ------------------
+<!-- ----------------
 ## 📫 Hubungi Kami
 
 Punya pertanyaan atau ide? Jangan ragu untuk menghubungi kami di:  
